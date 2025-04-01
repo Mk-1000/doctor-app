@@ -1,0 +1,58 @@
+# Node.js dependencies
+/node_modules/
+
+# Build output
+/dist/
+/build/
+
+# Logs
+*.log
+*.log.*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# npm package lock file (optional, can be committed if you want deterministic builds)
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# IDE files (example: Visual Studio Code)
+.vscode/
+.idea/
+
+# npm configuration files
+npmrc
+package-lock.json
+yarn.lock
+
+# MongoDB data files (if any local database is used)
+data/
+
+# Miscellaneous
+*.swp
+*.swo
+
+# Temporary files
+*.bak
+*.tmp
+*.swp
+
+# Optional: Coverage reports (if using testing tools like Jest)
+/coverage/
+
+# Optional: Logs from the process
+*.pid
+*.seed
+
+# Optional: If you are using Docker
+docker-compose.override.yml
+
+# Optional: If you are using TypeScript
+*.tsbuildinfo
